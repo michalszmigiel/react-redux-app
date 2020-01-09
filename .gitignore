@@ -1,2 +1,4 @@
 node_modules/
 src/pg/
+.DS_Store
+public/.DS_Store
