@@ -34,8 +34,8 @@ class ExpenseForm extends React.Component {
       this.setState({ createdAt });
     }
   };
-  onFocusChange = focused => {
-    this.setState(() => (focused = focused));
+  onFocusChange = ({ focused }) => {
+    this.setState(() => ({ focused }));
   };
   onSubmit = e => {
     e.preventDefault();
